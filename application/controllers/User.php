@@ -22,4 +22,14 @@ class User extends CI_controller
     echo '<br>';
     echo site_url();
   }
+
+  public function agent()
+  {
+    $this->load->library('user_agent');
+    echo $this->agent->agent_string();
+    echo '<br>';
+    echo $this->agent->browser();
+    echo '<br>';
+    echo $this->agent->platform();
+  }
 }
