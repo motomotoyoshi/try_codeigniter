@@ -14,4 +14,12 @@ class User extends CI_controller
     ];
     $this->load->view('tutorial/user_detail', $data);
   }
+
+  public function url()
+  {
+    $this->load->helper('url');
+    echo auto_link('googleのurlは、https://google.comです');
+    echo '<br>';
+    echo site_url();
+  }
 }
