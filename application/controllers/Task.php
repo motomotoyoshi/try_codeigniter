@@ -4,7 +4,6 @@
   {
     public function index()
     {
-      $this->load->model('task_model');
       $this->load->library('form_validation');
 
       if ($this->input->post()){
