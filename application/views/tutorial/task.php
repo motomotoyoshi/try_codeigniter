@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CodeIgniter超入門</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" crossorigin="anonymous">
-    <style>
-        header {
-            text-align:center;
-            padding:2rem 0;
-        }
-        form{
-            border:1px solid  #c0c0c0;
-            padding:2rem;
-            margin-bottom:2rem;
-        }
-    </style>
-</head>
+<?php $this->load->view('common/header'); ?>
 <body>
 <header class="container">
     <h1>CodeIgniter超入門</h1>
