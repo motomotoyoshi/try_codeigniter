@@ -46,7 +46,7 @@
                     <tr>
                         <td><?php echo html_escape($item['task_name']); ?></td>
                         <td>
-                          <?php echo calc($item['created_at']); ?>
+                          <?php echo $this->interval_lib->calc($item['created_at']); ?>
                         </td>
                     </tr>
                     <?php
